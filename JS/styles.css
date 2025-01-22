@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+}
+
+#hero-image {
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+/* Header */
+
+button {
+    background-color: black;
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1em;
+}
+
+#home {
+    height: 4em;
+}
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+
+/* h1 {
+    font-size: 5.5em;
+    color: red;
+    text-align: center;
+} */
+
+/* First Div */
+p {
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+#block-1 {
+    display: flex;
+    justify-content: space-around;
+    border: .5em solid black;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+#text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5em;
+    max-width: 650px;
+    font-size: 1.2em;
+}
+
+#zed-1 {
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Second Div */
+#block-2 {
+    display: flex;
+    justify-content: space-around;
+    border: .5em solid black;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+#text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5em;
+    max-width: 650px;
+    font-size: 1.2em;
+}
+
+#zed-2 {
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Home Button */
+
+#reset-button {
+    position: fixed;
+    height: 1em;
+    width: 1em;
+    right: 1em;
+    bottom: 1em;
+    margin: auto;
+    padding: 1em;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: center;
+}
