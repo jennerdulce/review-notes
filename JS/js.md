@@ -2,8 +2,8 @@
 
 ## Setup
 
-- Create a `.js` file
-
+- Create a `app.js` file
+- app is a common naming convention when utilizing js
 - Import this fie by putting a `<script>` just before the `</body>` body closing tag
 
 ```html
@@ -17,7 +17,7 @@
     <main>
     </main>
     <footer></footer>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
 ```

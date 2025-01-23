@@ -3,7 +3,7 @@ body {
 }
 
 #hero-image {
-    height: 600px;
+    min-height: 40vh;
     display: block;
     margin: auto;
 }
@@ -14,16 +14,16 @@ button {
     background-color: black;
     cursor: pointer;
 }
-#navbar{
+
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    padding: 1em;
+    padding: 1rem;
 }
 
 #home {
-    height: 4em;
+    height: 4rem;
 }
 
 #nav-list {
@@ -35,13 +35,13 @@ button {
 li {
     display: inline;
     float: right;
-    margin: 0 1em;
+    margin: 0 1rem;
     text-decoration: none;
 }
 
 a {
     text-decoration: none;
-    color: white
+    color: pink;
 }
 
 
@@ -64,18 +64,18 @@ h3 {
 #block-1 {
     display: flex;
     justify-content: space-around;
-    border: .5em solid black;
-    padding: 1em;
-    margin: 1em 0;
+    border: .5rem solid black;
+    padding: 1rem;
+    margin: 1rem 0;
 }
 
 #text-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 5em;
+    margin: 0 5rem;
     max-width: 650px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 #zed-1 {
@@ -88,18 +88,18 @@ h3 {
 #block-2 {
     display: flex;
     justify-content: space-around;
-    border: .5em solid black;
-    padding: 1em;
-    margin: 1em 0;
+    border: .5rem solid black;
+    padding: 1rem;
+    margin: 1rem 0;
 }
 
 #text-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 5em;
+    margin: 0 5rem;
     max-width: 650px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 #zed-2 {
@@ -112,17 +112,18 @@ h3 {
 
 #reset-button {
     position: fixed;
-    height: 1em;
-    width: 1em;
-    right: 1em;
-    bottom: 1em;
+    height: 1rem;
+    width: 1rem;
+    right: 1rem;
+    bottom: 1rem;
     margin: auto;
-    padding: 1em;
+    padding: 1rem;
     background-color: red;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     cursor: pointer;
     text-align: center;
 }
+
