@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="mobile.css">
-
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mobile.css">
 </head>
 <body>
     <header>
         <!-- <h1></h1> -->
         <div id="navbar">
-            <button onClick="window.location.reload();"><img id="home" src="img/home.png" alt="home button"></button>
+            <a href="../index.html"><img id="home-button" src="../img/home.png" alt="Home Icon"></a>
             <ul id="nav-list">
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="skins.html">Skins</a></li>
+                <li><a href="pages/skins.html">Skins</a></li>
+                <li><a href="pages/videos.html">Videos</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
@@ -37,7 +38,28 @@
         </div>
         <a id="reset-button" href="#home">Top</a>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href=""><img class="social-icon" src="img/twitter.svg" alt="twitter-icon"></a>
+                    <a href=""><img class="social-icon" src="img/instagram.svg" alt="instagram-icon"></a>
+                    <a href=""><img class="social-icon" src="img/github.svg" alt="github-icon"></a>
+                    <a href=""><img class="social-icon" src="img/twitter.svg" alt="twitter-icon"></a>
+                </div>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023<span class="designer">Jenner Dulce</span></p>
+        </div>
+    </footer>
     <script src="scripts/app.js"></script>
 </body>
 </html>

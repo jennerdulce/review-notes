@@ -1,55 +1,8 @@
-body {
-    background-color: black;
-}
-
 #hero-image {
     min-height: 40vh;
     display: block;
     margin: auto;
 }
-
-/* Header */
-
-button {
-    background-color: black;
-    cursor: pointer;
-}
-
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-#home {
-    height: 4rem;
-}
-
-#nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-    float: right;
-    margin: 0 1rem;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color: pink;
-}
-
-
-/* h1 {
-    font-size: 5.5em;
-    color: red;
-    text-align: center;
-} */
 
 /* First Div */
 p {
@@ -107,23 +60,3 @@ h3 {
     display: block;
     margin: auto;
 }
-
-/* Home Button */
-
-#reset-button {
-    position: fixed;
-    height: 1rem;
-    width: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-    margin: auto;
-    padding: 1rem;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-align: center;
-}
-

@@ -1,0 +1,30 @@
+button {
+    background-color: black;
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
