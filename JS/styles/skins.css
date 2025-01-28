@@ -15,12 +15,14 @@
     align-items: center;
     /* margin: 1rem; */
     border: .4em solid blue;
-    max-width: 1000px;
+    max-width: 1250px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .skin-hero {
     display: block;
-    margin: auto;
+    margin: 0 auto 1rem auto;
 }
 
 .skin-showcase {
@@ -29,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
     /* margin: 1rem; */
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .skin-display {
@@ -49,4 +51,16 @@
     height: 135px;
     display: block;
     cursor: pointer;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.skin-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
 }
